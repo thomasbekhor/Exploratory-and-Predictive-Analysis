@@ -1,32 +1,44 @@
 # Exploratory and Predictive Analysis - Trainee for Junior Consulting Club
 
 
+
 ## 📘 1. Housing Price Prediction (Regression)
 
-**Goal:** Predict housing prices based on features such as size, rooms, and location.
+**🎯 Goal:** Predict house prices based on property attributes such as area, room count, and location.
 
-**Key Features:**
-- Data preprocessing and EDA
-- Regression models (Linear, Ridge, Lasso, Tree-based)
-- Evaluation with RMSE and R²
-- Hyperparameter tuning with GridSearchCV
+**🧠 Machine Learning Techniques:**
+- **Linear Regression**
+- **Polynomial Regression**
+- **Ridge & Lasso Regularization**
+- **Decision Trees**
+- **Random Forest Regressor**
+- **Model Evaluation:** R² Score, RMSE
+- **Model Tuning:** GridSearchCV
 
-**Technologies:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+**📊 Tools & Libraries:**  
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-[👉 View Project](./Housing_Regression.ipynb)
+**📁 Notebook:** [View Housing_Regression.ipynb](./Housing_Regression.ipynb)
 
 ---
 
 ## 🚀 2. Passenger Transport Prediction (Classification)
 
-**Goal:** Predict whether an interplanetary passenger was transported to another dimension based on trip and demographic data.
+**🎯 Goal:** Predict whether a space passenger was *transported to another dimension* using travel and personal data.
 
-**Key Features:**
-- Feature engineering and cleaning
-- Classification models (Logistic Regression, Decision Trees, KNN, SVM, etc.)
-- Model evaluation and selection
-- Cross-validation and model export
+**🧠 Machine Learning Techniques:**
+- **Logistic Regression**
+- **Decision Tree Classifier**
+- **K-Nearest Neighbors (KNN)**
+- **Naive Bayes**
+- **Support Vector Machines (SVM)**
+- **Feature Engineering:** OneHotEncoding, Imputation, Scaling
+- **Cross-Validation** & **Hyperparameter Tuning** (GridSearchCV, RandomizedSearchCV)
+- **Model Serialization:** `joblib`
 
-**Technologies:** Python, Pandas, Scikit-learn, Seaborn, Joblib
+**📊 Tools & Libraries:**  
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-[👉 View Project](./Passengers_Classification.ipynb)
+**📁 Notebook:** [View Passengers_Classification.ipynb](./Passengers_Classification.ipynb)
+
+---

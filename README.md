@@ -1,4 +1,4 @@
-# Exploratory and Predictive Analysis - Trainee for Junior Consulting Club.
+# Exploratory and Predictive Analysis - Trainee for Junior Consulting Club
 
 
 ## 📘 1. Housing Price Prediction (Regression)
